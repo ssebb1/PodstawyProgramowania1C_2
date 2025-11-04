@@ -30,7 +30,7 @@ print(napis2)
 # IV) Funkcje zmiennych typu string
 
 #1.) poszukiwanie danengo fragmentu w tekście
-'''napis3 = 'matematyka'
+napis3 = 'matematyka'
 index_gdzie_jest = napis3.find('tem')
 print(index_gdzie_jest)
 
@@ -53,7 +53,6 @@ piec_liczb_po_przedziale = piec_liczb.split(',')
 print(piec_liczb_po_przedziale)
 trzecia_liczba = int(piec_liczb_po_przedziale[2])
 print(trzecia_liczba)
-'''
 
 #3.) Łączenie napisów
 lista_napisow = ['widnows', 'jest', 'tworzony', 'dla', 'kasy']

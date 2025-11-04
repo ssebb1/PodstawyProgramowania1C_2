@@ -31,7 +31,7 @@ if liczba > 0:
     print('Dodatnia')'''
 
 #Przykład 4
-liczba = int(input('Podaj liczbę od 1 do 3'))
+liczba = int(input('Podaj liczbę od 1 do 3: '))
 
 if liczba == 1:
     print('jeden')
