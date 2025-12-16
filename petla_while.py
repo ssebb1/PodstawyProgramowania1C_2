@@ -32,3 +32,7 @@ if haslo == popr_haslo:
     print('Wreszcie... BRAWOOO udało się Tobie :D')
 else:
     print('Skończyło się nie wejdziesz co systemu :>')
+
+
+
+
