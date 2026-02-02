@@ -50,3 +50,20 @@ while 2 in lista1:
 
 lista1 = [x for x in lista1 if x != 2]
 print(lista1)
+
+#j)
+'''lista3 = [x ** 2 for x in lista1]'''
+lista3 = []
+for x in lista1:
+    lista3.append(x ** 2)
+print(lista3)
+
+#ZADANIE 2
+
+'''lista = [178, 192, 184, 182, 180, 179, 186, 190, 191, 191]
+
+x_max = max(lista)
+x_min = min(lista)
+
+lista_norm = [(x - x_min) / (x_max - x_min) for x in lista]
+print(lista_norm)'''
