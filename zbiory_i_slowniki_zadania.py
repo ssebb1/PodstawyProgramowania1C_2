@@ -1,4 +1,4 @@
-'''zbior = set() #Pusty zbiór
+zbior = set() #Pusty zbiór
 
 lista2d = [
 [5, 2, 8, 5, 1],
@@ -19,7 +19,6 @@ zbior_caly = set()
 for x in lista2d:
     zbior2 = set(x)
     zbior_caly = zbior_caly.union(zbior2)
-+++++
 print(zbior_caly)
 
 #Zadanie 1.2.
@@ -32,7 +31,7 @@ for x in range(len(lista2d)):
 lista1d_zbior = set(lista1d)
 for e in lista1d_zbior:
     print(e, lista1d.count(e))
-'''
+
 
 
 slowa = [

@@ -204,7 +204,7 @@ print(f'Najpopularniejszymi miastami na Pomorzu są: {miasta}')'''
 
 
 
-sentencja = 'abbccaaaa'
+'''sentencja = 'abbccaaaa'
 
 a = sentencja.count('a')
 b = sentencja.count('b')
@@ -217,20 +217,84 @@ elif b > c and b > a:
 elif c > a and c > b:
     print(f'Najczęsciej występuje litera c. {c} razy.')
 else:
-    print('Brak jednoznacznej odpowiedzi (remis).')
+    print('Brak jednoznacznej odpowiedzi (remis).')'''
 
 
 
 
 
+#SPRAWDZIAN Listy, słowniki i zbiory
+#ZAD. 1
+#sposób 1
+'''dziedzina = [-2, 0, 4, 6, 7, 11]
+
+wartosci = []
+for x in dziedzina:
+    wartosci.append(3 * x - 2)
+print(wartosci)
+
+#sposób 2
+
+wartoscii = [3 * y - 2 for y in dziedzina]
+
+print(wartoscii)'''
+
+#ZAD. 2
+
+lista = ['kot', 'pies', 'żółw', [4, 6, 7, 1], 2.7, [[8, 9], [3, 5]]]
+
+#a)
+print(len(lista))
+
+#b)
+print(lista[5][1][1])
+
+#d)
+print(sum(lista[3]))
+
+#ZAD. 3
+
+przeslanie = [[90, 65, 87, 83, 90, 69], [87, 65, 82, 84, 79], [66, 89, 67], [80, 82, 90, 89, 90, 87, 79, 73, 84, 89, 77]]
+print(' '.join([''.join(map(chr, x))for x in przeslanie]))
+
+dupa = []
+for x in przeslanie:
+    litery = map(chr, x)
+    slowo = ''.join(litery)
+    dupa.append(slowo)
+wynik = ' '.join(dupa)
+print(wynik)
 
 
+#ZAD. 4
+plansza = [
+    [3, 8, 1, 9],
+    [4, 6, 5, 2],
+    [7, 1, 8, 3],
+    [2, 9, 4, 6]
+]
 
+#ZAD. 5
+przedmioty = ['informatyka', 'matematyka pp', 'matematyka pr', 'język polski pp', 'język angielski']
+wyniki = [100, 28, 98, 30, 80]
 
+#a)
+matura = dict(zip(przedmioty, wyniki))
+print(matura)
 
+#b)
+print(matura['język polski pp'])
 
+#c)
 
+matura['matematyka pp'] += matura['matematyka pp'] // 2
+print(matura)
 
+tekst = 'NAUCZYCIELEMWSZYSTKIEGOJESTPRAKTYKA'
+
+print(len(set(tekst)))
+
+for x in tekst:
 
 
 
