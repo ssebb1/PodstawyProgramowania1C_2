@@ -56,3 +56,14 @@ def jaki_trojkat(a,b,c):
 jaki_trojkat(5, 5, 12)
 
 
+def liczby_niezalezne(lista):
+    for e in lista:
+        dzielniki = []
+        for l in lista:
+            if e % l == 0:
+                dzielniki.append(l)
+        if len(dzielniki) == 1:
+            wynik.append(e)
+    return wynik
+print(liczby_niezalezne([12, 7, 3, 6, 21, 74]))
+#Zadanie domowe: 2.4, 2.5, 2.6, 2.7, 2.8
