@@ -67,3 +67,21 @@ def liczby_niezalezne(lista):
     return wynik
 print(liczby_niezalezne([12, 7, 3, 6, 21, 74]))
 #Zadanie domowe: 2.4, 2.5, 2.6, 2.7, 2.8
+
+def ile_cyfr(liczba):
+    licznik = 0
+    while liczba > 0:
+        liczba = liczba // 10
+        licznik += 1
+    return
+print(ile_cyfr(127))
+
+def unikatowe_elementy(l1, l2):
+    zbior = set()
+    l = l1 + l2
+    for x in l:
+        if l.count(x) == 1:
+            zbior.add(x)
+    return zbior
+print(unikatowe_elementy([1, 2, 6, 4, 5], [8, 4, 5, 2]))
+
